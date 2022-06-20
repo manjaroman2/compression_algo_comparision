@@ -1,5 +1,6 @@
 # Compression algorithm benchmark 
 
+`
 Machine: Ryzen 1200 (Im poor) at 3.6 Ghz, 4 cores, 16gb 2666mhz, samsung ssd 256gb, arch linux 5.18
 
 
@@ -43,3 +44,5 @@ Everything was done in parallel so depending on the implementation results may d
 The binaries I used are all in pacman except the brotli one I got it from here: https://github.com/mcmilk/zstdmt
 Also on the wiki file zpaq 3 was faster than zpaq 2 which makes no sense to me but ok 
 CR/CT = compression ratio / compression time * 100 
+
+`
